@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e7d630d-b9b7-454c-bd99-a8bfbabb5f2c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/js/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/css/login.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/login.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/register.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1Trzm3ILY8bzoot7H45BXB4w0Mk" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\qfw" />
+      <recent name="D:\" />
+      <recent name="D:\'" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\qfw项目" />
+      <recent name="D:\qfw项目\jquery" />
+      <recent name="D:\qfw项目\bootstrap" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e7d630d-b9b7-454c-bd99-a8bfbabb5f2c" name="Default Changelist" comment="" />
+      <created>1574233157979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574233157979</updated>
+      <workItem from="1574233159226" duration="752000" />
+      <workItem from="1574233977074" duration="11287000" />
+      <workItem from="1574247485673" duration="11218000" />
+      <workItem from="1574259708349" duration="5048000" />
+      <workItem from="1574298650613" duration="7351000" />
+      <workItem from="1574308733754" duration="21953000" />
+      <workItem from="1574395873133" duration="15646000" />
+      <workItem from="1574418827535" duration="2690000" />
+      <workItem from="1574481283167" duration="19679000" />
+      <workItem from="1574650138999" duration="6983000" />
+      <workItem from="1574660779219" duration="989000" />
+      <workItem from="1574672359616" duration="1446000" />
+      <workItem from="1574674354327" duration="4010000" />
+      <workItem from="1574683407884" duration="744000" />
+      <workItem from="1574841647935" duration="9000" />
+      <workItem from="1576321507528" duration="139000" />
+      <workItem from="1576330901441" duration="47000" />
+      <workItem from="1576465741816" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

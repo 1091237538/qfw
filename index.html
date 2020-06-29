@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <script src="jquery/jquery-1.11.3/jquery.js"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="swiper-5.0.4/package/css/swiper.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="swiper-5.0.4/package/js/swiper.js"></script>
+    <script src="js/index.js"></script>
+    <title>index</title>
+</head>
+<body>
+
+<div class="wrap-box">
+    <!--顶部导航栏-->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <span class="col-md-1 pic">
+                    <a href="#">
+                        <img src="images/qifeiye.png">
+                    </a>
+                </span>
+                <ul class="col-md-6 nav hidden-sm hidden-xs">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">模板</a></li>
+                    <li><a href="#">套餐</a></li>
+                    <li><a href="#">案例</a></li>
+                    <li id="v1-t"><a href="#">文档</a></li>
+                    <li id="v2-t"><a href="#">关于</a></li>
+                </ul>
+                <span class="col-md-2 col-md-push-3 nav-right  hidden-sm hidden-xs">
+                    <a href="login.html">登录</a>
+                    <a href="register.html">注册</a>
+                </span>
+                <span class=" icon1 visible-sm visible-xs" id="btn-r">
+                    <a href="#" class="glyphicon glyphicon-align-justify"></a>
+                </span>
+                <div class="visible-Text1 hidden-xs hidden-sm">
+                    <ul class="visible-l">
+                        <li><a href="#">教程中心</a>
+                            <ul class="visible-l-t">
+                                <li>
+                                    <a href="#">
+                                    <span>快速入门</span>
+                                    <span>SEO相关</span>
+                                     </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <span>绑定域名</span>
+                                    <span>网站备案</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <span>网页设计</span>
+                                    <span>商城在线</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">版本更新日志</a>
+                            <ul class="visible-l-m">
+                                <li><a href="#">系统升级日志：V4.52</a></li>
+                                <li><a href="#">系统升级日志：V4.50 ...</a></li>
+                                <li><a href="#">系统升级日志：V4.49</a></li>
+                                <li><a href="#">系统升级日志：V4.48</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">建站咨询</a>
+                            <ul class="visible-l-b">
+                                <li><a href="#">2017年响应式网站设计中字...</a></li>
+                                <li><a href="#">如何提高网站的设计感？巧妙的...</a></li>
+                                <li><a href="#">什么是响应式网页布局? 给你...</a></li>
+                                <li><a href="#">干货分享: 几何设计学原理の...</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="visible-Text2 hidden-sm hidden-xs">
+                    <ul class="visible-r">
+                        <li><a href="#">公司介绍</a>
+                            <ul class="about-l">
+                                <li><a href="#">公司介绍</a></li>
+                                <li><a href="#">服务条款</a></li>
+                                <li><a href="#">法律声明</a></li>
+                                <li><a href="#">可接受服务</a></li>
+                                <li><a href="#">免责声明</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">荣誉资质</a>
+                            <ul class="about-m">
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <img src="images/gy04.jpg" >
+                                        </span>
+                                        <span>
+                                             <img src="images/gy01.jpg" >
+                                        </span>
+                                     </a>
+                                </li>
+                                <li>
+                                     <a href="#">
+                                         <span>
+                                             <img src="images/gy03.jpg" >
+                                         </span>
+                                         <span>
+                                             <img src="images/gy02.jpg" >
+                                         </span>
+                                     </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">联系客服</a>
+                            <ul class="about-r">
+                                <li><a href="#">客户服务热线</a></li>
+                                <li><a href="#">4006-285-729</a></li>
+                                <li><a href="#">QQ客户中心</a></li>
+                                <li><a href="#">800088546</a></li>
+                                <li><a href="#">公司地址</a></li>
+                                <li><a href="#">苏州市工业园区加成大厦F4-D2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--顶部中间部分-->
+    <div class="middle-box">
+        <div class="container">
+                <div class="video-box">
+                <video src="video/video1.mp4" autoplay="autoplay" loop muted></video>
+                <div class="mask">
+                    <div class="autoText-box">
+                        <div class="Text1">
+                            <span class="autoTitle hidden-sm hidden-xs"></span>
+                            <span class="autoCursor hidden-sm hidden-xs"></span>
+                            <p class="visible-sm ">自己做网站</p>
+                            <p class="visible-sm ">简单又省钱</p>
+                        </div>
+                        <div class="Text2" >
+                            <p class="hidden-sm hidden-xs">真「响应式」自助建站平台 艺术品级模板 引领自助建站潮流</p>
+                            <p class="visible-sm ">引领「响应式自助建站」潮流，每一套模板都是艺术品</p>
+                        </div>
+                        <a href="#" class="Text3 hidden-xs hidden-ms" >
+                            免费创建账户
+                        </a>
+                    </div>
+                    <div href="#" class="Text4">
+                        <a href="#" class="hidden-sm hidden-xs glyphicon glyphicon-chevron-right"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    下半部分-->
+    <div class="bottom-c1">
+        <div class="container">
+            <h1>更快，更简单</h1>
+            <p>采用响应式技术构建</p>
+            <p>一次建造，在所有设备下使用</p>
+            <img src="images/p1-01.jpg" alt="">
+        </div>
+    </div>
+    <div class="bottom-c2">
+        <div class="container">
+            <div class="row">
+                <div class="left-img col-md-8">
+                    <img  src="images/p1-02.png" >
+                </div>
+                <div class="right-Text col-md-4">
+                    <h1>基于H5模板，快速搭建一个响应式网站
+                    </h1>
+                    <p>起飞页™代表着当今响应式自助建站技术的最高水平，没有之一。我们的网站构建器，将传统的编码工作转化为直观的拖拽操作和文字录入。在这里，您仅需花上10分钟便可以完成一个H5响应式网站，您会发现完全不需要编写一行代码，这就是起飞页自助建站的神奇之处。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-c3">
+        <div class="container">
+            <div class="row">
+                <div class="Text-l col-md-4">
+                    <h1>真正的响应式自助建站，自适应所有设备</h1>
+                    <p>不同于其它假响应式品牌，起飞页采用的是真正的响应式引擎。您只需对网站资料进行一次性输入，网站即可根据访问者的设备智能地呈现出最佳效果，全程无需人工干预。设备包括但不限于：计算机、Pad、微信、手机和电视。</p>
+                </div>
+                <div class="right-imgBox col-md-8">
+                    <img src="images/p1-03.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-c4">
+        <div class="container">
+            <div class="row">
+                <div class="left-img2 col-md-8">
+                    <img src="images/p1-04.png" >
+                </div>
+                <div class="right-Text2 col-md-4">
+                    <h1>服务器&网络&全球部署</h1>
+                    <p>起飞页自助建站平台全面采用第二代云服务器和云网络。其中，服务器硬件使用最新Xeon处理器、32个物理CPU核心、RAID10存储、ECC内存、SSD硬盘，高配服务器在提供超高性能的同时，更可减少出错几率；另外，优质、昂贵的中港加速网络确保您在大陆地区也可以迅速稳定地打开香港的网站。起飞页拥有中国大陆、中国香港以及全球5个海外云节点可供选择，将网站一键部署到距离客户最近的国家和地区。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-c5">
+        <div class="container">
+            <div class="row">
+                <div class="left-Text col-md-4">
+                    <h1>全面的搜索引擎优化 轻松获得更高排名</h1>
+                    <p>谁说自助建站的SEO效果就一定差？无需额外设置，平台自动为您生成网站地图（sitemap），帮助搜索引擎全面地对网站进行索引；同时，页面标题、页面描述以及静态化链接技术也可以帮助您更加轻松地获得较高的关键词排名。</p>
+                </div>
+                <div class="right-imgBox2 col-md-8">
+                    <img src="images/p1-05.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-c6 hidden-sm hidden-xs hidden-md">
+        <div class="container">
+            <h1>1秒打开，快得有点儿狠</h1>
+            <p>超高性能云服务器和云网络，CPU提速90%，内存提速50%，IO处理提速200%，网速提高100%</p>
+            <div class="row">
+                <div class="col-md-12 img1">
+                    <span class="col-md-4">
+                        <img src="images/p1-16-1.png">
+                        <img src="images/p1-16-2.png" class="mi-img1">
+                    </span>
+                    <span class="col-md-4">
+                        <img src="images/p1-17-1.png">
+                         <img src="images/p1-17-2.png" class="mi-img1">
+                    </span>
+                    <span class="col-md-4">
+                        <img src="images/p1-13-1.png">
+                         <img src="images/p1-13-2.png" class="mi-img1">
+                    </span>
+                </div>
+            </div>
+            <div class="row lastRow">
+                <div class="col-md-12 img2">
+                    <span class="col-md-4">
+                        <img src="images/p1-14-1.png">
+                         <img src="images/p1-14-2.png" class="mi-img1">
+                    </span>
+                    <span class="col-md-4">
+                        <img src="images/p1-15-1.png" >
+                         <img src="images/p1-15-2.png" class="mi-img1">
+                    </span>
+                    <span class="col-md-4">
+                        <img src="images/p1-12-1.png">
+                         <img src="images/p1-12-2.png" class="mi-img1">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-c7 hidden-sm hidden-xs hidden-md">
+        <div class="container">
+            <h1>免费海量模板随您挑选</h1>
+            <p>您可以从众多出色的H5模板中挑选出您最喜欢的</p>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/p1-18.png" ></div>
+                        <div class="swiper-slide"><img src="images/p1-19.png" ></div>
+                        <div class="swiper-slide"><img src="images/p1-20.png" ></div>
+                        <div class="swiper-slide"><img src="images/p1-21.png" ></div>
+                        <div class="swiper-slide"><img src="images/p1-22.png" ></div>
+                        <div class="swiper-slide"><img src="images/p1-23.png" ></div>
+                    </div>
+                    <!-- Add Pagination -->
+                </div>
+        </div>
+    </div>
+    <div class="bottom-c8">
+        <div class="container">
+            <h1>始于2007年，已经为超过15万用户提供建站服务</h1>
+            <p>众多不了解编程的用户使用起飞页自助建站平台做出了效果非凡的网站。也许，您也可以和他们一样出色！</p>
+            <div class="row img3">
+                <a href="#" class="col-md-4">
+                    <img src="images/p1-06.png">
+                </a>
+                <a href="#" class="col-md-4">
+                    <img src="images/p1-07.png" alt="">
+                </a>
+                <a href="#" class="col-md-4">
+                    <img src="images/p1-08.png" alt="">
+                </a>
+            </div>
+            <div class="row img4">
+                <a href="#" class="col-md-4">
+                    <img src="images/p1-09.png">
+                </a>
+                <a href="#" class="col-md-4">
+                    <img src="images/p1-10.png" alt="">
+                </a>
+                <a href="#" class="col-md-4">
+                    <img src="images/p1-11.png" alt="">
+                </a>
+            </div>
+            <a href="javascript:;" class="btn btn-primary hidden-xs hidden-sm  btn1" >查看更多案例
+            <span class="glyphicon glyphicon-arrow-right "></span></a>
+        </div>
+    </div>
+    <div class="bottom-c9">
+        <div class="container">
+            <h1>我们提供的不仅仅是工具</h1>
+            <p>______</p>
+            <p class="p2">起飞页不仅是一个方便快捷的构建网站的自助建站平台，更重要的是，我们为中国用户提供了更多贴心的服务：网站备案、自动备份、快速恢复以及网站代建服务。 我们使用了国内、香港和海外最好的网络和云服务器，以确保您的网站能够快速完美地呈现在世界各地的访客面前。</p>
+            <img src="images/p1-24.png" alt="">
+        </div>
+    </div>
+    <div class="bottom-c10">
+        <div class="container">
+            <h1>合作伙伴</h1>
+            <ul>
+                <li>
+                    <div>
+                        <img src="images/p1-25%20(1).png" alt="">
+                        <p class="hidden-sm hidden-xs">贝宝合作伙伴<br/>PayPal</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                       <img src="images/p1-25%20(4).png" alt="">
+                       <p class="hidden-sm hidden-xs">阿里云金牌合作伙伴<br/>aliyun</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/p1-25%20(2).png" alt="">
+                        <p class="hidden-sm hidden-xs">中国电信指定供应商<br/>China telecom</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/p1-25%20(3).png" alt="">
+                        <p class="hidden-sm hidden-xs">亚马逊合作伙伴<br/>amazon</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-c11 ">
+        <div class="container">
+            <h1 class="hidden-sm hidden-xs">客户反馈</h1>
+            <p class="hidden-sm hidden-xs"></p>
+            <div class="swiper-container hidden-sm hidden-xs ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <img src="images/p1-26%20(2).png" class="col-md-1">
+                            <p class="col-md-9">我们尝试使用起飞页系统做了大概20个网站。目前为止，起飞页是我们使用过的功能较为完善的一个响应式自助建站系统，基本上可以满足我的企业客户的不同建站需求。有的时候，周末发给客服的问题，也能得到即时的回答，对我们这种帮助客户做网站的公司来说，后期服务是最重要的。</p>
+                            <br><br><br>
+                            <p class="lastP">U-Share – 台湾知名建站公司</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <img src="images/p1-26%20(3).png" class="col-md-1">
+                            <p class="col-md-9">如果和WIX, Weebly或者Squarespace进行比较，我觉得起飞页更像是一个综合体。它和Squarespace一样能做出很多华丽的效果，又像weebly一样能很快的搭建博客，又和wix一样容易上手，而且还是响应式的。总之，起飞页是一个很适合我的平台。</p>
+                            <br><br><br>
+                            <p class="lastP">北欧维森商旅</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <img src="images/p1-26%20(1).png" class="col-md-1">
+                            <p class="col-md-9">选用起飞页一是因为他们就在我们隔壁，二是他们的价格确实很吸引人。在试用了3个月后，我们果断的购买了5年的套餐。起飞页不仅提供了一个美观大方的网站，也提供了稳定的后期服务。我们不断的在为客户介绍起飞页。</p>
+                            <br><br><br>
+                            <p class="lastP">苏州金蝶软件</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="page">
+                <div class="row">
+                    <div class="col-md-2 b1">
+                        <p>客户服务热线：</p>
+                        <p>4006-285-729</p>
+                    </div>
+                    <div class="col-md-6 b2">
+                        <p>工作时间：09:00~19:00（节假日定时响应）</p>
+                        <p>为每个用户提供优质的客户服务 让每个人都能自己做出赏心悦目的网站</p>
+                    </div>
+                    <div class="col-md-4 b3">
+                        <img src="images/p1-27.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="page2">
+                <span style="color: #61b0ff">友情链接:</span>
+                <span><a href="#" style="color: #0088c2">开源CMS</a></span>
+                <span><a href="#" style="color: #0082c2">好问</a></span>
+                <span><a href="#">模板之家</a></span>
+                <span><a href="#">织梦猫</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-c12">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <span>
+                        <p>起飞页 · 优雅做网站</p>
+                    </span>
+                    <p>2014年起，专注于响应式建站领域。起飞页是目前国内最专业、最领先的响应式建站平台。</p>
+                    <p style="font-size: 15px;font-weight: bold;">Q Q客服：800088546</p>
+                    <p style="font-size: 15px;font-weight: bold;">客服热线：4006-285-729 / 0512-62969169</p>
+                    <br>
+                    <p style="font-size: 16px;font-weight: bold;">合作伙伴:</p>
+                    <ul>
+                        <li><img src="images/p1-25%20(1).png" alt=""></li>
+                        <li><img src="images/p1-25%20(4).png" alt=""></li>
+                        <li><img src="images/p1-25%20(2).png" alt=""></li>
+                        <li><img src="images/p1-25%20(3).png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 hidden-xs hidden-sm">
+                    <span class="col-md-4">
+                        <p>公司信息</p>
+                        <ul>
+                            <li><a href="#">公司介绍</a></li>
+                            <li><a href="#">服务条款</a></li>
+                            <li><a href="#">法律声明</a></li>
+                            <li><a href="#">可接受服务</a></li>
+                            <li><a href="#">免责声明</a></li>
+                        </ul>
+                    </span>
+                    <span class="col-md-4">
+                        <p>技术支持</p>
+                        <ul>
+                            <li><a href="#">联系客服</a></li>
+                            <li><a href="#">建站教程</a></li>
+                            <li><a href="#">更新日志</a></li>
+                            <li><a href="#">博客</a></li>
+                            <li><a href="#">免责声明</a></li>
+                        </ul>
+                    </span>
+                    <span class="col-md-4">
+                        <p>快速入口</p>
+                        <ul>
+                            <li><a href="#">提交域名备案流程</a></li>
+                            <li><a href="#">申请域名设定服务</a></li>
+                            <li><a href="#">在线格式转换</a></li>
+                            <li><a href="#">检测网站为什么打不开</a></li>
+                            <li><a href="#">检测网站为什么打开很慢</a></li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="col-md-3 hidden-xs hidden-sm">
+                    <span>
+                        <p>最新资讯</p>
+                        <ul>
+                            <li><a href="#">干货分享: 几何设计学原理の黄金分割在网...</a></li>
+                            <li><a href="#">系统升级日志: V4.52</a></li>
+                            <li><a href="#">如何改善网站留给用户的第一印象？（下）</a></li>
+                            <li><a href="#">如何改善网站留给用户的第一印象？（上）</a></li>
+                            <li><a href="#">多彩字体指南：让新手也能快速体验网页缤纷...</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+            <div class="page3">
+                <p>拓展您的业务，展示您的风采，或者只是尝试一下新的想法。 起飞页自助建站平台，拉近您与互联网的距离！</p>
+            </div>
+            <div class="page4">
+                <p>版权所有 2013-2017 苏州卡达网络科技有限公司 增值电信业务经营许可证苏B2-20150321 苏ICP备09008221号-3 版本: V3.6</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--    右侧导航定位-->
+    <div class="right-fixed  visible-md visible-lg">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="s1"></span>
+                    <span>在线客服</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="s2"></span>
+                    <span>4006285729</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="s3"></span>
+                    <span>教程中心</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip" data-placement="left" data-html="true" data-title="<img src='images/erweima.png'><br/></img>关注微信" >
+                    <span class="s4"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+<!--右侧隐藏导航栏-->
+    <div class="right-hidden ">
+        <ul>
+            <li><a href="index.html">首页<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">模板<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">套餐<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">案例<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">文档<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="#">关于<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="login.html">登录<span class="glyphicon glyphicon-menu-right"></span></a></li>
+            <li><a href="register.html">注册<span class="glyphicon glyphicon-menu-right"></span></a></li>
+        </ul>
+    </div>
+</body>
+</html>

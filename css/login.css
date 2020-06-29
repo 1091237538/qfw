@@ -1,0 +1,173 @@
+
+* {
+    list-style: none;
+}
+a{
+    text-decoration: none!important;
+}
+a:hover {
+    text-decoration: none!important;
+    color: #fff;
+}
+body {
+    background: #383838!important;
+}
+
+
+
+.login-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.nav .container {
+    width: 90%;
+    text-align: right;
+}
+.nav .container a {
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.login-img .container {
+    margin-top: 50px;
+    text-align: center;
+    color: #ccc;
+}
+.login-img .container>img{
+    width: 159px;
+    height: 51px;
+    color: #8d9095!important;
+}
+.login-img .container p {
+    padding-top: 5px;
+    letter-spacing: 5px;
+}
+
+
+.login-middle .container {
+    color: #ccc;
+}
+.login-middle .container .form-group input {
+    width: 348px;
+    background: transparent;
+}
+.form-box {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login-middle .container .form-box .form-group{
+    padding-top: 20px;
+}
+.login-middle .container .form-box .checkbox {
+    padding:20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.login-middle .container .form-box #login {
+    background: #ccc;
+    color: #333333;
+
+}
+.login-middle .container .form-box #sign {
+    margin-top: 10px;
+}
+.login-middle .container .form-box #login,
+.login-middle .container .form-box #sign {
+    height: 36px;
+    padding:0;
+}
+
+.login-middle .container .form-box a{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.login-middle .container .form-box a:nth-of-type(1){
+    background: url("../images/social_icon_24x24.png");
+    background-position:-48px -48px;
+}
+.login-middle .container .form-box a:nth-of-type(2){
+    background: url("../images/social_icon_24x24.png");
+    background-position:0 -48px;
+}
+.login-middle .container .form-box a:nth-of-type(3){
+    background: url("../images/social_icon_24x24.png");
+    background-position:-240px -48px;
+}
+.login-middle .container .form-box a:nth-of-type(4){
+    background: url("../images/social_icon_24x24.png");
+    background-position:-96px -48px;
+}
+
+
+
+
+
+
+
+
+
+
+    /*右侧边导航*/
+.right-fixed {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 999;
+    transform: translateY(-50%);
+}
+.right-fixed li{
+    position: relative;
+    width: 200px;
+    height: 54px;
+    background: #3e353d;
+}
+.right-fixed li:nth-child(1){
+    background: #6eb0ff;
+}
+.right-fixed a{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 54px;
+    text-align: center;
+}
+.right-fixed a:hover {
+    background: #6eb0ff;
+}
+.right-fixed a:hover span {
+    color: #fff!important;
+}
+
+.right-fixed .s1,
+.right-fixed .s2,
+.right-fixed .s3,
+.right-fixed .s4 {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/pic.png");
+}
+.right-fixed .s1 {
+    background-position:-40px -40px;
+}
+.right-fixed .s2 {
+    background-position: -40px 0;
+}
+.right-fixed .s3 {
+    background-position: -40px;
+}
+.right-fixed .s4 {
+    background-position: -40px -80px;
+}
+
+/*右侧导航结束*/

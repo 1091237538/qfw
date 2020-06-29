@@ -1,0 +1,199 @@
+/*//响应式布局  媒体查询*/
+@media screen and (min-width: 1200px){
+    .left-img,
+    .left-img2 {
+        left: -200px;
+    }
+    .right-Text,
+    .right-Text2 {
+        top: 200px;
+    }
+    .Text-l,
+    .left-Text {
+        top: 200px;
+    }
+    .right-imgBox,
+    .right-imgBox2 {
+        left: 30px;
+    }
+    .bottom-c7 .container {
+        width: 100% !important;
+    }
+    .bottom-c7 h1,
+    .bottom-c7 p,
+    .bottom-c8 h1,
+    .bottom-c8 p,
+    .bottom-c10 h1,
+    .bottom-c10 p {
+        opacity: 0;
+    }
+    .bottom-c11 h1 {
+        opacity: 0;
+    }
+    .bottom-c12 .container {
+        width: 80% !important;
+    }
+}
+@media screen and (min-width: 1000px){
+    .wrap-box {
+        left: 0!important;
+    }
+}
+@media screen and (min-width: 990px) {
+    .right-hidden {
+        display: none!important;
+    }
+}
+@media screen and (min-width: 300px) {
+    .header .container {
+        width:90%!important;
+    }
+    .middle-box .container {
+        width: 100%!important;
+        padding: 0!important;
+    }
+}
+@media screen and (max-width: 995px) {
+    .header {
+        position: absolute;
+    }
+    .header .row .icon1 {
+        position: absolute;
+        top: 23px;
+        right: 10px;
+    }
+    .Text1 {
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 44px;
+        color: #fff;
+        font-family: '微软雅黑';
+    }
+    .Text1 p{
+        margin: 0 0 0 -15px;
+    }
+    .Text2 {
+        top: 180px;
+        left: 50%;
+        transform: translateX(-50%);
+        width:500px;
+        font-size: 20px;
+        color: #fff;
+        text-indent: 0;
+    }
+    .Text3 {
+        top:60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background:#0088c2 ;
+        border: 0;
+    }
+    .Text3:hover {
+        color: #fff;
+        background: #0088c2;
+    }
+    .Text3:focus{
+        color: #fff;
+    }
+    .right-Text {
+        top: -5px!important;
+        padding-left: 80px;
+    }
+    .right-imgBox {
+        top: -250px;
+    }
+    .Text-l {
+        top: 400px!important;
+        padding-left: 80px;
+    }
+    .right-Text2 {
+        padding-left: 80px;
+        top: -20px!important;
+    }
+    .left-Text {
+        padding-left: 70px;
+        top: 400px!important;
+    }
+    .right-imgBox2 {
+        top: -200px;
+    }
+    .right-hidden {
+       right:-100%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .header{
+        height: 50px!important;
+    }
+    .header .row .pic img {
+        top:13px;
+        margin:0;
+    }
+    .header .row .icon1 {
+        position: absolute;
+        top: 13px!important;
+        right: 10px;
+    }
+    .middle-box {
+        top: 0;
+    }
+    .right-Text,
+    .Text-l {
+        padding-left: 70px;
+    }
+    .right-Text h1,
+    .Text-l h1,
+    .right-Text2 h1,
+    .left-Text h1,
+    .bottom-c9 h1 {
+        font-size: 20px!important;
+    }
+    .right-Text p,
+    .Text-l p,
+    .right-Text2 p,
+    .left-Text p,
+    .bottom-c9 p{
+        font-size: 12px!important;
+    }
+    .Text-l {
+        top:250px!important;
+    }
+    .left-Text {
+        top: 285px!important;
+    }
+    .right-Text {
+        top: 0!important;
+    }
+    .right-Text2 {
+        top: 0!important;
+    }
+    .right-imgBox {
+        top: -200px;
+    }
+    .bottom-c7 h1,
+    .bottom-c8 h1 {
+        font-size: 20px!important;
+    }
+    .bottom-c7 p,
+    .bottom-c8 p {
+        font-size: 12px!important;
+    }
+    .bottom-c10 .container ul {
+        padding: 0 10px;
+    }
+    .bottom-c10 .container li {
+        padding: 10px 10px;
+        width: 50%;
+    }
+    .bottom-c11 .container .page .b2 {
+        padding-left: 0!important;
+    }
+    .bottom-c11 .container .page .b1,
+    .bottom-c11 .container .page .b2 {
+        padding-top: 0!important;
+    }
+    .bottom-c12 .container {
+        margin:0!important;
+    }
+}

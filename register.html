@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <script src="jquery/jquery-1.11.3/jquery.js"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/register.js"></script>
+    <title>register</title>
+</head>
+<body>
+    <div class="register-box">
+        <div class="nav">
+            <div class="container">
+                <a href="index.html">
+                    <img src="images/close1.png">
+                </a>
+            </div>
+        </div>
+        <div class="register-img">
+            <div class="container">
+                <img src="images/qifeiye.png" >
+                <p>从这里开启建站之旅</p>
+            </div>
+        </div>
+        <div class="register-middle">
+            <div class="container">
+                <div class="form-box">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">电子邮箱*</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        <span class="bt1">此项必填项</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">密码*</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <span class="bt2">此项必填项</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword2">再次输入密码</label>
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+                        <span class="bt3">两次输入密码不正确</span>
+                    </div>
+                    <p>验证问题 *</p>
+                    <p class="response">请回答:<span id="num"></span>+<span id="num2"></span>等于几?</p>
+                    <div class="form-group" >
+                        <label for="text"></label>
+                        <input type="text" class="form-control" id="text">
+                        <span class="bt4">验证输入错误</span>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox">我已经阅读并同意服务条款以及法律声明。我不会创建含有低俗内容及有碍社会安定内容的网站。
+                        </label>
+                    </div>
+                    <button type="button" class="btn btn-default btn-lg btn-block" id="reg">注册</button>
+                    <button type="button" class="btn btn-default btn-lg btn-block" id="login" onclick="location.href='login.html'">已经有账号了?请登录</button>
+                    <span style="display: inline-block;margin-top: 12px;">其他账号登录:</span>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <p style="margin-top: 20px;text-align: right;cursor: pointer;">忘记密码？点这里找回</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--    右侧导航定位-->
+    <div class="right-fixed  visible-md visible-lg">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="s1"></span>
+                    <span>在线客服</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="s2"></span>
+                    <span>4006285729</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="s3"></span>
+                    <span>教程中心</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip" data-placement="left" data-html="true" data-title="<img src='images/erweima.png'><br/></img>关注微信" >
+                    <span class="s4"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

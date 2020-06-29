@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <script src="jquery/jquery-1.11.3/jquery.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="js/login.js"></script>
+    <title>login</title>
+</head>
+<body>
+    <div class="login-box">
+        <div class="nav">
+            <div class="container">
+                <a href="index.html">
+                    <img src="images/close1.png">
+                </a>
+            </div>
+        </div>
+        <div class="login-img">
+            <div class="container">
+                <img src="images/qifeiye.png" >
+                <p>从这里开启建站之旅</p>
+            </div>
+        </div>
+        <div class="login-middle">
+            <div class="container">
+                <div class="form-box">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">用户名或邮箱</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">密码</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox">记住我（请在私人计算机上使用此功能）
+                        </label>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="login" onclick="location.href='login.html'">登录</button>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="sign"  onclick="location.href='register.html'">注册</button>
+                    <span style="display: inline-block;margin-top: 12px;">其他账号登录:</span>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <p style="margin-top: 20px;text-align: right;cursor: pointer;">忘记密码？点这里找回</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--    右侧导航定位-->
+    <div class="right-fixed  visible-md visible-lg">
+    <ul>
+        <li>
+            <a href="#">
+                <span class="s1"></span>
+                <span>在线客服</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="s2"></span>
+                <span>4006285729</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="s3"></span>
+                <span>教程中心</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" data-toggle="tooltip" data-placement="left" data-html="true" data-title="<img src='images/erweima.png'><br/></img>关注微信" >
+                <span class="s4"></span>
+            </a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
